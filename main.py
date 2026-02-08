@@ -30,24 +30,9 @@ view_counts = {}
 # Available built-in songs with actual lyrics
 BUILTIN_SONGS = [
     {
-        "id": "song1",
-        "name": "Ordinary - Alex Warren",
-        "file": "ordinary.mp3",
-        "lyrics": [
-            "I'm just ordinary",
-            "But you make me feel extraordinary",
-            "In your eyes, I see something magical",
-            "Something that I never knew I'd find",
-            "You take my ordinary heart",
-            "And make it beat in extraordinary ways",
-            "With you, every moment feels like magic",
-            "And I never want this feeling to end"
-        ]
-    },
-    {
-        "id": "song2",
-        "name": "Romantic Piano",
-        "file": "romantic_piano.mp3",
+        "id": "song1", 
+        "name": "Romantic Piano", 
+        "file": "https://assets.mixkit.co/music/preview/mixkit-romantic-piano-228.mp3",
         "lyrics": [
             "Soft melodies of love",
             "Playing gently in the air",
@@ -60,9 +45,9 @@ BUILTIN_SONGS = [
         ]
     },
     {
-        "id": "song3",
-        "name": "Love Melody",
-        "file": "love_melody.mp3",
+        "id": "song2", 
+        "name": "Love Melody", 
+        "file": "https://assets.mixkit.co/music/preview/mixkit-love-melody-228.mp3",
         "lyrics": [
             "Your love is like a melody",
             "That plays inside my heart",
@@ -75,9 +60,9 @@ BUILTIN_SONGS = [
         ]
     },
     {
-        "id": "song4",
-        "name": "Heart Strings",
-        "file": "heart_strings.mp3",
+        "id": "song3", 
+        "name": "Heart Strings", 
+        "file": "https://assets.mixkit.co/music/preview/mixkit-heart-strings-228.mp3",
         "lyrics": [
             "You play my heart like strings",
             "Creating music soft and sweet",
@@ -90,9 +75,24 @@ BUILTIN_SONGS = [
         ]
     },
     {
-        "id": "song5",
-        "name": "Eternal Love",
-        "file": "eternal_love.mp3",
+        "id": "song4", 
+        "name": "Sweet Symphony", 
+        "file": "https://assets.mixkit.co/music/preview/mixkit-sweet-symphony-228.mp3",
+        "lyrics": [
+            "Our love's a sweet symphony",
+            "Playing through the night and day",
+            "In perfect harmony",
+            "Guiding us along the way",
+            "Violins sing of our joy",
+            "Pianos play our sweet refrain",
+            "This love nothing can destroy",
+            "Through sunshine and through rain"
+        ]
+    },
+    {
+        "id": "song5", 
+        "name": "Eternal Love", 
+        "file": "https://assets.mixkit.co/music/preview/mixkit-eternal-love-228.mp3",
         "lyrics": [
             "This love will last forever",
             "Through every single day",
