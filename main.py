@@ -1031,7 +1031,7 @@ def surprise(code):
 
     # Get song details
     song_file = surprise.get('song_file', 'ordinary.mp3')
-    song_url = f"/static/music/{song_file}"
+    song_url = song_file
     song_lyrics = surprise.get('song_lyrics', BUILTIN_SONGS[0]['lyrics'])
 
     return render_template_string('''
